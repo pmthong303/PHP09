@@ -1,0 +1,52 @@
+#full{
+	width: 1000px;
+	margin:auto;
+}
+#top{
+	width: 1000px;
+	height: 100px;
+	background:#DDDDDD;
+	font-size: 200%;
+	text-indent: 3cm;
+	
+}
+#center{
+	width: 1000px;
+	height: 300px;
+	background:#DDDDDD;
+	font-size: 200%;
+	margin-top:100px;
+}
+#video{
+	width: 500px;
+	height: 200px;
+	background: red;
+	text-indent: 1cm;
+	position: absolute;top:270px;left: 250px;
+	font-size: 200%;
+}
+#play{
+	width: 250px;
+	height: 200px;
+	background:#33FFCC;
+	position: absolute;top:270px;right: 250px;
+	text-align: center;
+	font-size: 200%;
+}
+#bot{
+	width: 1000px;
+	height: 100px;
+	background:#DDDDDD;
+	font-size: 200%;
+	text-indent: 3cm;
+	margin-top: 2cm;
+	margin-bottom: 1cm;
+
+}
+
+
+
+
+
+
+

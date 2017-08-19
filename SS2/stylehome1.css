@@ -1,0 +1,42 @@
+#full{
+	width: 1200px;
+	margin:auto;
+}
+#tweets{
+	width: 300px;
+	height: 1000px;
+	background: #99ffff;
+	float: left;
+	text-align: center;
+	color:#EEEEEE;
+	font-family: Arial;
+	font-size: 300%;
+}
+#replles{
+	width: 300px;
+	height: 1000px;
+	background:#FFFF00;
+	float:left;
+	text-align: center;
+	color:#EEEEEE;
+	font-size: 300%;
+}
+#search{
+	width: 300px;
+	height: 1000px;
+	background:#999999;
+	float: left;
+	text-align: center;
+	color:#EEEEEE;
+	font-size: 300%;
+}
+#message{
+	width: 300px;
+	height: 1000px;
+	background:#6699ff;
+	float:left;
+	text-align: center;
+	color:#EEEEEE;
+	font-size: 300%;
+}
+
