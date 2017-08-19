@@ -1,0 +1,19 @@
+h1{
+	color:blue;
+	font-size: 200%;
+	text-align: left;
+	text-shadow: -2px -2px 2px red;
+	text-decoration: underline;
+}
+td{
+	text-align: justify;
+}
+img{
+	float: left;
+	margin-right: 2em;
+	width: 130px;
+	height: 190px;
+}
+body{
+	background="Hinh-nen-Cristiano-Ronaldo-dep-18.jpg" ;
+}
