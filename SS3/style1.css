@@ -1,0 +1,79 @@
+*{
+	width: 100%;
+	
+}
+
+body{
+	width: 50%;
+	margin: 15px auto;
+	border: 1px solid black;
+	height: 1000px;
+	
+}
+header{
+	width: 95%;
+	
+	clear: both;
+	border-bottom: 1px solid #efc900;
+	margin-left: 1cm;
+
+}
+header img{
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	
+	margin-left: 1cm;
+	float: left;
+}
+#wrap h1{
+	font-size: 200%;
+	text-align: center;
+	padding-top: 30px;
+	color:#ffcc33;
+	word-spacing: 5px;
+}
+#wrap h2{
+	font-size: 150%;
+	text-align: center;
+	color:#33FFFF;
+	word-spacing: 5px;
+}
+section{
+	width: 60%;
+	height: 500px;
+	border-right:1px solid #efc900;
+	margin-top: 1cm;
+	margin-bottom: 1cm;
+	float:left;
+
+}
+section img {
+	width: 200px;
+	height: 200px;
+	float:left;
+	
+
+}
+#brand h1{
+	
+
+	margin-top: 1cm;
+}
+#fution p{
+	margin-right: 1cm;
+}
+aside{
+	width: 35%;
+	float:right;
+	margin-top: 1cm;
+	
+	height: 500px;
+	
+}
+
+
+	
+
+
+

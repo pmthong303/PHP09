@@ -1,0 +1,19 @@
+body{
+	width: 500px;
+	border: 2px solid black;
+}
+header{
+	padding: 0 30px;
+}
+section{
+	float:right;
+	border: 1px solid black;
+	width: 150px;
+	margin:0 20px 10px;
+
+
+}
+footer{
+	clear: both;
+	padding: 0 30px;
+}
