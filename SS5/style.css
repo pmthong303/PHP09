@@ -1,0 +1,172 @@
+body{
+	background: white;
+	width: 800px;
+}
+header {
+	background: #00cc99;
+	width: 800px;
+	height: 100px;
+}
+header p{
+	font-size: 100%;
+
+}
+
+
+
+#brand p{
+	padding: 10px;
+	width:200px;
+	float: left;
+	border: 1px solid black;
+	background: #DDDDDD;
+}
+
+#global p{
+	padding: 10px;
+	width:350px;
+	border: 1px solid black;
+	background: #DDDDDD;
+	margin-left: 5px;
+	float:left;
+}
+#tool p{
+	padding: 10px;
+	width:20%;
+	border: 1px solid black;
+	background: #DDDDDD;
+	margin-right: 10px;
+	float:right;
+}
+section {
+	background: #00cc99;
+	height: 130px;
+	width: 590px;
+	float: left;
+	margin-top: 10px;
+}
+}
+#hero p{
+	background: #00cc99;
+	
+
+
+
+}
+#future p{
+	width: 370px;
+	height: 80px;
+	background: #DDDDDD;
+	border: 1px solid black;
+	margin-top: -10px;
+	font-size: 100%;
+	float: left;
+}
+#cold p{
+	width: 170px;
+	height: 80px;
+	background: #DDDDDD;
+	border: 1px solid black;
+	margin: auto;
+	margin-right: 5px;
+	margin-top: -10px;
+	font-size: 100%;
+	float: right;
+}
+#ad p {
+	background: #00CC99;
+	width: 200px;
+	height: 130px;
+	margin-top: 10px;
+	float: right;
+}
+#Body {
+	width: 590px;
+	height: 360px;
+	background: #00cc99;
+	margin-top: 5px;
+	float: left;
+	
+}
+#art {
+	width: 160px;
+	height: 300px;
+	background-color: #DDDDDD;
+	border: 1px solid black; 
+	float:left;
+}
+#list{
+	width: 400px;
+	height: 300px;
+	background-color: #DDDDDD;
+	border: 1px solid black; 
+	float: right;
+	margin-right: 5px;
+
+	
+}
+#sidebar{
+	width: 200px;
+	height: 360px;
+	background: #00cc99;
+	
+	float:right;
+	margin-top:-10px;
+
+}
+#fecture{
+	width: 190px;
+	height: 300px;
+	background-color: #DDDDDD;
+	border: 1px solid black; 
+	float:left;
+	margin-left: 5px;
+
+}
+#footer {
+	width: 800px;
+	height: 50px;
+	background-color: #00cc99;
+	margin-top: 10px;
+	float:left;
+}
+	
+	
+
+
+
+
+
+}
+@media screen and (max-width: 960px){
+	body {
+		background: white;
+		width: 800px;
+}
+	header {
+		width: 1024px;
+	}
+@media screen and (max-width: 768px){
+	body {
+		background: orange;
+	}
+}
+@media screen and (max-width: 550px){
+	body {
+		background: yellow;
+	}
+}
+@media screen and (max-width: 320px){
+	body {
+		background: green;
+	}
+}
+
+
+
+	
+
+
+	
+
+
