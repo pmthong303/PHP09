@@ -1,0 +1,51 @@
+
+header {
+	background-color: #99FFFF;
+	width:800px ;
+	height: 230px;
+}
+header img {
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+}
+#hinhanh {
+	float:left;
+}
+#thongtin {
+	margin: 10px 0 0 3cm;
+	float: left;
+
+	
+}
+#control h3{
+	color:#BB0000;
+}
+#control textarea {
+	width: 800px;
+	height: 200px;
+	background-color: #CCFFFF;
+
+}
+#exp {
+	width: 800px;
+	height: 100px;
+	background-color:  #CCFFFF;
+
+}
+h3{
+	color:#BB0000;
+}
+}
+
+	
+
+}
+
+
+
+
+
+
+	
+	
