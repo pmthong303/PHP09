@@ -1,0 +1,331 @@
+body{
+	width: 90%;
+	margin: auto;
+}
+#menu {
+	width: 100%;
+	margin: auto;
+	float: left;
+	
+}
+#menu h1{
+	color: #6699ff;
+	float: left;
+}
+#menu ul{
+	list-style-type: none;
+	text-align: center;
+	float: right;
+}
+#menu ul li{
+	width: 120px;
+	height: 40px;
+	display: inline-table;
+	line-height: 40px;
+}
+#menu ul li a{
+	color:#6699ff;
+	display: block;
+}
+#menu ul li a:hover{
+	background: black;
+}
+#cate {
+	width: 100%;
+	margin: auto;
+	float:left;
+}
+#banner {
+	width: 100%;
+	background-color: #AAAAAA;
+	height: 100px;
+}
+#cate h4 {
+	margin-bottom: 1cm;
+}
+#banner p {
+	margin-top: -1em;
+	font-size: 200%;
+	color:#3399FF;
+	padding-top: 1em;
+	padding-left: 1em;
+}
+#inten {
+	width: 100%;
+	margin-top: 1em;
+	float: left;
+}
+#list{
+	width: 25%;
+	padding:5px;
+	float:left;
+	
+
+}
+#list ul{
+	list-style-type: none;
+	text-align: left;
+	margin-left: -2em;
+}
+#list ul li {
+	height: 25px;
+}
+#list ul li a {
+	color:#6699ff;
+	display: block;
+}
+#card1 {
+	width: 24%;
+	float: left;
+}
+#pic h4 {
+	width: 90%;
+	color:#6699ff;
+
+
+}
+#pic p{
+	width: 90%;
+	height: 200px;
+	background-color: #AAAAAA;
+}
+#pic button {
+	margin-left:7em;
+	background-color: #6699CC;
+	width: 100px;
+	height: 30px;
+	
+}
+#pic1 h4 {
+	width: 90%;
+	color:#6699ff;
+
+
+}
+#pic1 p{
+	width: 90%;
+	height: 200px;
+	background-color: #AAAAAA;
+}
+#pic1 button {
+	margin-left:7em;
+	background-color: #6699CC;
+	width: 100px;
+	height: 30px;
+	
+}
+#pic2 h4 {
+	width: 90%;
+	color:#6699ff;
+
+
+}
+#pic2 p{
+	width: 90%;
+	height: 200px;
+	background-color: #AAAAAA;
+}
+#pic2 button {
+	margin-left:7em;
+	background-color: #6699CC;
+	width: 100px;
+	height: 30px;
+	
+}
+#card2 {
+	width: 26%;
+	float: left;
+}
+#pic3 h4 {
+	width: 90%;
+	color:#6699ff;
+
+
+}
+#pic3 p{
+	width: 90%;
+	height: 200px;
+	background-color: #AAAAAA;
+}
+#pic3 button {
+	margin-left:7em;
+	background-color: #6699CC;
+	width: 100px;
+	height: 30px;
+	
+}
+#pic4 h4 {
+	width: 90%;
+	color:#6699ff;
+
+
+}
+#pic4 p{
+	width: 90%;
+	height: 200px;
+	background-color: #AAAAAA;
+}
+#pic4 button {
+	margin-left:7em;
+	background-color: #6699CC;
+	width: 100px;
+	height: 30px;
+	
+}
+#pic5 h4 {
+	width: 90%;
+	color:#6699ff;
+
+
+}
+#pic5 p{
+	width: 90%;
+	height: 200px;
+	background-color: #AAAAAA;
+}
+#pic5 button {
+	margin-left:7em;
+	background-color: #6699CC;
+	width: 100px;
+	height: 30px;
+	
+}
+#card3 {
+	width: 24%;
+	float: right;
+}
+#pic6 h4 {
+	width: 90%;
+	color:#6699ff;
+
+
+}
+#pic6 p{
+	width: 90%;
+	height: 200px;
+	background-color: #AAAAAA;
+}
+#pic6 button {
+	margin-left:7em;
+	background-color: #6699CC;
+	width: 100px;
+	height: 30px;
+	
+}
+#pic7 h4 {
+	width: 90%;
+	color:#6699ff;
+
+
+}
+#pic7 p{
+	width: 90%;
+	height: 200px;
+	background-color: #AAAAAA;
+}
+#pic7 button {
+	margin-left:7em;
+	background-color: #6699CC;
+	width: 100px;
+	height: 30px;
+	
+}
+#pic8 h4 {
+	width: 90%;
+	color:#6699ff;
+
+
+}
+#pic8 p{
+	width: 90%;
+	height: 200px;
+	background-color: #AAAAAA;
+}
+#pic8 button {
+	margin-left:7em;
+	background-color: #6699CC;
+	width: 100px;
+	height: 30px;
+	
+}
+footer {
+	width: 100%;
+	float: left;
+	background: #cccccc;
+	height: 250px;
+	margin-top: 40px;
+
+}
+#foot h3{
+	padding: 10px;
+	color:#6699ff;
+	float: left;
+	
+}
+#foot ul {
+	list-style-type: none;
+	color:#0099cc;
+	width: 100px;
+	float:left;
+	padding:15px;
+	margin-left: 10px;
+}
+#foot ul li {
+	height: 30px;
+	line-height: 30px;
+
+}
+#foot ul li a {
+	color: #6699ff;
+	display: block;
+}
+#foot button{
+	width: 100px;
+	background: #0099cc;
+	padding:5px;
+	margin-top: 10px;
+}
+#foot p{
+	width: 200px;
+	height: 100px;
+}
+#fin {
+	float: left;
+	width: 300px;
+	height:200px;
+	padding:25px;
+	margin-left: 2cm;
+}
+#fin ul {
+	list-style-type: none;
+	color: #6699ff;
+	margin-top: 5px;
+}
+#fin ul li {
+	height: 10px;
+	line-height: 30px;
+
+}
+#fin ul li a{
+	color: #6699ff;
+	display: block;
+}
+#fin p{
+	width: 300px;
+	height: 100px;
+	background: #006699;
+}
+@media screen and (max-width: 1024px){
+	#menu {
+		width: 50%;
+		
+
+	}
+
+
+
+
+
+
+
+

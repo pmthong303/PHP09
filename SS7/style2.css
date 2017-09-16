@@ -1,0 +1,94 @@
+body{
+	width: 90%;
+	margin: auto;
+}
+#menu {
+	width: 100%;
+	margin: auto;
+	float: left;
+	
+}
+#menu h1{
+	color: #6699ff;
+	float: left;
+}
+#menu ul{
+	list-style-type: none;
+	text-align: center;
+	float: right;
+}
+#menu ul li{
+	width: 120px;
+	height: 40px;
+	display: inline-table;
+	line-height: 40px;
+}
+#menu ul li a{
+	color:#6699ff;
+	display: block;
+}
+#menu ul li a:hover{
+	background: black;
+}
+#top{
+	width: 100%;
+	margin: auto;
+	float: left;
+}
+#left{
+	width: 40%;
+	float: left;
+}
+#left h4{
+	color:#6699ff;
+	margin-left: 1.5em;
+}
+#left p {
+	width: 90%;
+	height: 300px;
+	background-color: #DDDDDD;
+	margin-left: 1.5em;
+}
+#left ul{
+	list-style-type: none;
+	float: left;
+	width: 100%;
+	
+	
+}
+#left ul li {
+	width: 100px;
+	height: 100px;
+	background-color: #DDDDDD;
+	display: inline-table;
+	line-height: 60px;
+	margin-left: 1em;
+}
+#right {
+	float: left;
+	margin-top: 3em;
+	width: 30%;
+}
+#right h4,h2,p {
+	color:#6699ff;
+}
+#more{
+	width: 60%;
+	background-color: #DDDDDD;
+}
+#more p {
+	padding: 10px;
+	color: #3366CC;
+	text-align: center;
+}
+#more button {
+	margin: center;
+	width: 50%;
+	height: 30px;
+	margin-bottom: 8px;
+	margin-left: 55px;
+	background-color: #3366CC;
+
+}
+
+

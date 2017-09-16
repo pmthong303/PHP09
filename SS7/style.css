@@ -1,0 +1,270 @@
+body {
+	height: 1500px;
+}
+#menu {
+	padding: 10px;
+}
+#menu h1 {
+	margin-left: 10px;
+	color: #6699ff;
+	float: left;
+}
+#menu ul{
+	list-style-type: none;
+	text-align: center;
+}
+#menu ul li{
+	width: 120px;
+	height: 40px;
+	display: inline-table;
+	line-height: 40px;
+}
+#menu ul li a{
+	color: #6699ff;
+	display: block;
+}
+#menu ul li a:hover {
+	background: black;
+}
+#text {
+	background: #cccccc;
+	width: 1200px;
+	height: 300px;
+	padding: 10px;
+
+}
+#text h1{
+	color: #339999;
+	width: 500px;
+	float: right;
+}
+#text p{
+	color:#EEEEEE;
+	font-size: 80%;
+	width: 500px;
+}
+#wrap {
+	
+	margin-top: 40px;
+	width: 1200px;
+	
+}
+#id1{
+	background: #cccccc;
+	width: 390px;
+	height: 200px;
+	float: left;
+}
+#id1 p{
+	padding-top: 70px;
+	padding-left: 160px;
+
+}
+#id2{
+	background: #cccccc;
+	width: 390px;
+	height: 200px;
+	margin-left: 15px;
+	float: left;
+}
+#id2 p{
+	padding-top: 70px;
+	padding-left: 160px;
+
+}
+#id3{
+	background: #cccccc;
+	width: 390px;
+	height: 200px;
+	margin-left: 15px;
+	float: left;
+}
+#id3 p{
+	padding-top: 70px;
+	padding-left: 160px;
+}
+#grab {
+	width: 1200px;
+	margin-top:60px;
+	
+	float:left;
+}
+#grab h2{
+	text-align: center;
+	color: #cccccc;
+}
+#i1 {
+	width: 290px;
+	height: :;
+	float: left;
+
+
+}
+#i1 p{
+	width: 290px;
+	height: 290px;
+	background-color: #cccccc;
+
+}
+#i1 h3{
+	text-align: center;
+	color:#6699FF;
+
+}
+#i1 button {
+	width: 100px;
+	background: #0099cc;
+	padding:5px;
+	margin-left: 80px;
+
+}
+#i2 {
+	width: 290px;
+	float:left; 
+	margin-left: 10px;
+}
+#i2 p{
+	width: 290px;
+	height: 290px;
+	background-color: #cccccc;
+
+}
+#i2 h3{
+	text-align: center;
+	color:#6699FF;
+}
+#i2 button {
+	width: 100px;
+	background: #0099cc;
+	padding:5px;
+	margin-left: 80px;
+
+}
+#i3 {
+	width: 290px;
+	float:left;
+	margin-left: 10px;
+
+}
+#i3 p{
+	width: 290px;
+	height: 290px;
+	background-color: #cccccc;
+
+}
+#i3 h3{
+	text-align: center;
+	color:#6699FF;
+}
+#i3 button {
+	width: 100px;
+	background: #0099cc;
+	padding:5px;
+	margin-left: 80px;
+
+}
+#i4 {
+	width: 290px;
+	float: left;
+	margin-left: 10px; 
+}
+#i4 p{
+	width: 290px;
+	height: 290px;
+	background-color: #cccccc;
+
+}
+#i4 h3{
+	text-align: center;
+	color:#6699FF;
+}
+#i4 button {
+	width: 100px;
+	background: #0099cc;
+	padding:5px;
+	margin-left: 80px;
+
+}
+footer {
+	width: 1200px;
+	float: left;
+	background: #cccccc;
+	height: 250px;
+	margin-top: 40px;
+
+}
+#foot h3{
+	padding: 10px;
+	color:#6699ff;
+	float: left;
+	
+}
+#foot ul {
+	list-style-type: none;
+	color:#0099cc;
+	width: 100px;
+	float:left;
+	padding:15px;
+	margin-left: 10px;
+}
+#foot ul li {
+	height: 30px;
+	line-height: 30px;
+
+}
+#foot ul li a {
+	color: #6699ff;
+	display: block;
+}
+#foot button{
+	width: 100px;
+	background: #0099cc;
+	padding:5px;
+	margin-top: 10px;
+}
+#foot p{
+	width: 200px;
+	height: 100px;
+}
+#fin {
+	float: left;
+	width: 300px;
+	height:200px;
+	padding:25px;
+	margin-left: 2cm;
+}
+#fin ul {
+	list-style-type: none;
+	color: #6699ff;
+	margin-top: 5px;
+}
+#fin ul li {
+	height: 10px;
+	line-height: 30px;
+
+}
+#fin ul li a{
+	color: #6699ff;
+	display: block;
+}
+#fin p{
+	width: 300px;
+	height: 100px;
+	background: #006699;
+}
+@media screen and (max-width: 1024px){
+	#menu {
+		width: 60%;
+		
+
+	}
+
+
+
+
+
+	
+
+
+
+
