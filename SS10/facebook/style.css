@@ -1,0 +1,66 @@
+#full {
+	width: 25%;
+	margin: auto;
+	background-color: #e9ebee;
+}
+#full h1,h3{
+	color:#3b5998;
+
+}
+#register input {
+	
+	border-color: #bdc7d8;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+}
+#close button {
+	width: 196px;
+	color: white;
+	background-color: #69a74e;
+	padding:7px 20px;
+	font-weight: both;
+	box-shadow: inset 0 1px 1px #a4e388; 
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	margin-left: 2cm;
+}#first{
+	width: 366px;
+	
+}
+#last {
+	width: 366px;
+
+}
+
+
+#txtemail {
+	width: 366px;
+}
+#reemail{
+	width: 366px;
+}
+#txtpassword {
+	width: 366px;
+}
+#confirmpassword{
+	width: 366px;
+}
+#errorfirst {
+	color:red;
+}
+#errorlast {
+	color:red;
+}
+#erroremail {
+	color:red;
+}
+#errorreemail{
+	color:red;
+}
+#errorpassword{
+	color: red;
+}
+#frpassword {
+	color: red;
+}
+

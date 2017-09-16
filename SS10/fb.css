@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin:0;
+}
+body {
+	width: 100%;
+}
+header {
+	width: 100%;
+	background-color: #3366CC;
+	height: 100px;
+}
+#fb{
+	width: 80%;
+	margin: auto;
+
+}
+#fb	p{
+	font-size: 50px;
+	float:left;
+	color: white;
+	margin-top: 20px;
+}
+#signin {
+	margin-top: 20px;
+	float: right;
+}
+#signin tr{
+	color: white;
+}
+#signin input{
+	margin: auto;
+}
+
+
+#left {
+	float:left;
+	background-color: #D3D8E8;
+	width: 50%;
+	height: 700px;
+}
+#left p {
+	font-family: inherit;
+	color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+   	padding-top: 50px;
+   	padding-left: 150px;
+    width: 450px;
+    word-spacing: -1px;
+}
+#left img {
+	padding-left: 150px; 
+}
+#register {
+	float: right;
+	background-color: #D3D8E8;
+	width: 50%;
+	height: 700px;
+}
+#menu h1{
+	font-family: inherit;
+	color: #333;
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+#menu h3 {
+	font-weight: normal;
+
+}
+#menu1 {
+	width: 60%;
+}
+#menu1 input {
+	font-family: inherit;
+    letter-spacing: inherit;
+    font-size: 18px;
+    padding: 7px 10px;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+
+}
+#email {
+	width: 460px;
+}
+#password {
+	width: 460px;
+}
+#menu3 td {
+	padding: 5px;
+	font-size: 13px;
+	height: 30px;
+	color: #365899;
+}
+#menu4 {
+	width: 50%;
+
+}
+#menu4 p {
+	color: #777;
+    font-size: 15px;
+    padding: 10px;
+
+}
+#menu4 button {
+	width: 196px;
+	color: white;
+	background-color: #69a74e;
+	padding:7px 20px;
+	font-weight: both;
+	box-shadow: inset 0 1px 1px #a4e388; 
+	border-color: #3b6e22 #3b6e22 #2c5115;
+}	
+

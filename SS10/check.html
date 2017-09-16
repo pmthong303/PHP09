@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>check</title>
+</head>
+<body>
+  password <input type="password" name="password" id="password">
+  <span id="errorpass"></span>
+  confirmpassword <input type="password" name="" id="frpassword">
+  <span id="frpass"></span>
+  <button type="button" onclick="check()">check</button>
+  <script type="text/javascript">
+  	function check()
+  	{
+  		var password = document.getElementById("password").value;
+  		var frpassword = document.getElementById("frpassword").value;
+  		if( password == ""){
+  			document.getElementById("errorpass").innerHTML = "xin nhap password";
+  		}
+  			else {
+  				document.getElementById("errorpass").innerHTML = "";
+  				
+  				}	
+
+
+  		if (frpassword == "") {
+  			document.getElementById("frpass").innerHTML ="xin nhap frpassword ";
+  		}
+  		else
+  			if (frpassword != password) {
+  			document.getElementById("frpass").innerHTML = "xin nhap giong password";
+
+  			}
+  			else {
+  				document.getElementById("frpass").innerHTML ="";
+  			}
+  		
+  		
+  		
+  	}
+  </script>
+
+</body>
+</html>

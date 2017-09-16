@@ -1,0 +1,25 @@
+<body>
+	<p id="cr7">
+	Cristiano Ronaldo dos Santos Aveiro, có biệt danh là "CR7", là cầu thủ bóng đá Bồ Đào Nha hiện đang thi đấu ở giải vô địch Tây Ban Nha cho câu lạc bộ Real Madrid với vị trí tiền vệ cánh hay tiền đạo và là đội trưởng của đội tuyển bóng đá Bồ Đào Nha
+		
+	</p>
+
+
+
+	<input type="text" name="text" id="text">
+	<input type="button" name="button" value="OK" onclick="check()">
+	<input type="button" name="btnReset" value="Reset" onclick="reset()">
+
+	<script type="text/javascript">
+		var str = document.getElementById('cr7').innerHTML;
+		function check() {
+   			var text = document.getElementById('text').value;
+   			var textChange = "<span style=\"background-color:yellow\">"+text+"</span>";
+  			document.getElementById('cr7').innerHTML= str.replace(new RegExp(text,'g'),textChange);
+  		}
+		function reset() {
+  			document.getElementById('cr7').innerHTML= str;
+  			document.getElementById('text').value= null;
+		}		
+	</script>
+</body>

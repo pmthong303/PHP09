@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example</title>
+	<script type="text/javascript" src="demon.js"></script>
+</head>
+<body>
+	<form>
+		<table>
+		Loại phòng:<select>
+			<option value="vip">VIP</option>
+			<option value="normar">Thường</option>
+		</select><br>
+		Người lớn<input type="number" name="nguoilon" id="person"><br>
+		<p id="cr"></p>
+		Trẻ em  <input type="number" name="" id="child"><br>
+		<p id="bal"></p>
+		Ngày đến <input type="date" name="" id="come"><br>
+		<p id="mod"></p>
+		Ngày đi <input type="date" name="" id="out"><br>
+		<p id="case"></p>
+		<button type="button" onclick= "check()" >Booking</button>	
+		<p></p>
+			
+		</table>
+
+			
+		
+			
+	</form>
+	<script type="text/javascript">
+	function check(){
+		var child , person;
+		child = document.getElementById("child").value
+		person = document.getElementById("person").value
+		document.getElementById("cr").innerHTML = "person"
+		document.getElementById("bal").innerHTML ="child"
+			if (child > person){
+				alert('khong thich hop');
+				else
+					alert("thanh cong");
+			}
+
+
+
+
+		
+	</script>
+	}
+
+</body>
+</html>

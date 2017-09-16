@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="caculator.css">
+</head>
+<body>
+	<form Name="calc">
+<table id="calc" border=1>
+<tr>
+<td colspan=5><input id="pmt" name="display" type="text"></td>
+<td style="display:none"><input type="number"></td>
+</tr>
+<tr>
+<td><input id="pmt" type=button value="0" OnClick="calc.display.value+='0'"></td>
+<td><input id="pmt" type=button value="1" OnClick="calc.display.value+='1'"></td>
+<td><input id="pmt" type=button value="2" OnClick="calc.display.value+='2'"></td>
+<td><input id="pmt" type=button value="+" OnClick="calc.display.value+='+'"></td>
+</tr>
+<tr>
+</td>
+<td><input id="pmt" type=button value="3" OnClick="calc.display.value+='3'"></td>
+<td><input id="pmt" type=button value="4" OnClick="calc.display.value+='4'"></td>
+<td><input id="pmt" type=button value="5" OnClick="calc.display.value+='5'"></td>
+<td><input id="pmt" type=button value="-" OnClick="calc.display.value+='-'"></td>
+</tr>
+<tr>
+</td>
+<td><input id="pmt" type=button value="6" OnClick="calc.display.value+='6'"></td>
+<td><input id="pmt" type=button value="7" OnClick="calc.display.value+='7'"></td>
+<td><input id="pmt" type=button value="8" OnClick="calc.display.value+='8'"></td>
+<td><input id="pmt" type=button value="x" OnClick="calc.display.value+='*'"></td>
+</tr>
+<tr>
+
+<td><input id="pmt" type=button value="9" OnClick="calc.display.value+='9'"></td>
+<td><input id="pmt" type=button value="." OnClick="calc.display.value+='.'"></td>
+
+
+</td>
+<td><input id="pmt" type=button value="=" OnClick="calc.display.value=eval(calc.display.value)"></td>
+<td><input id="pmt" type=button value="/" OnClick="calc.display.value+='/'"></td>
+</tr>
+<tr>
+
+
+
+<td><input id="pmt" type=button value="AC" OnClick="calc.display.value=''"></td>
+<td><input id="pmt" type=button value="C" OnClick="calc.display.value=calc.display.value.substr(0,calc.display.value.length-1)"></td>
+</tr>
+</table>
+</form>
+
+</body>
+
+</html>
