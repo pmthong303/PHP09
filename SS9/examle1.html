@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+</head>
+<body>
+	<form>	
+		<table>
+			
+			<p>Price<input type="text" name="price" id="price"
+			
+
+			</p>
+			<p>Discount<input type="text" name="discount" id="discount"></p>
+			<button type="button" id="submit" >Submit</button>
+			<p>Before <input type="text" name="before" id="before"></p>
+			<p>After <input type="text" name="after" id="after"></p>
+
+
+		</table>
+
+	</form>
+	<script type="text/javascript" src="commont1.js">	</script>
+
+		<script type="text/javascript">
+			document.getElementById('price').onchange= function() {
+				beforediscount()
+			};
+				function beforediscount(){
+				document.getElementById('before').value= document.getElementById('price').value;
+			};
+			document.getElementById('submit').onclick = function() {
+				afterdiscount()
+			};
+				function afterdiscount(){
+					var x= document.getElementById('before').value;
+					var y= document.getElementById('discount').value;
+				document.getElementById('after').value= x - discount(x, y);
+
+
+			}
+	
+
+
+
+
+		</script>
+
+	
+			
+
+
+
+</body>
+</html>

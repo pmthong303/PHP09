@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>String</title>
+	
+</head>
+<body>
+		<h3>Tên của tôi là :</h3>
+		<p id="name"></p>
+		<h3>Số từ trong tên của tôi:</h3>
+		<p id="long"></p>
+		<h3>Thay thế tên đệm bằng php09</h3>
+		<p id="php09">Phan Minh Thông</p> <button type="button" onclick="change()">Thay đổi</button>
+		<h3>Vị trí chữ n trong tên:</h3>
+		<p id="location"></p>
+		<h3>In hoa tên :</h3>
+		<p id="inhoa">Phan Minh Thông</p> <button type="button" onclick="Up()">In hoa</button>
+		<h3>Bỏ họ để lại đệm vs tên:</h3>
+		<p id="Del"></p>
+	
+
+
+	
+	
+	
+	<script type="text/javascript" src="commont2.js"></script>
+	<script type="text/javascript">
+		var person = "Phan Minh Thong";
+		document.getElementById("name").innerHTML = person;
+		document.getElementById("long").innerHTML = person.length;
+		function change() {
+			var person =document.getElementById("php09").innerHTML;
+			var change = person.replace("Minh","PHP09");
+			document.getElementById("php09").innerHTML = change;
+		}
+		var loca = person.search("n")
+		document.getElementById("location").innerHTML = loca;
+		function Up() {
+			var person = document.getElementById("inhoa").innerHTML;
+			document.getElementById("inhoa").innerHTML = person.toUpperCase();
+		}
+		var del = person.slice(5,15);
+		document.getElementById("Del").innerHTML = del ;
+
+
+
+		
+	</script>
+
+</body>
+</html>
